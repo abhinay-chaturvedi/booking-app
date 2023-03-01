@@ -1,0 +1,85 @@
+
+.hotelsContainer{
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin-top: 20px;
+}
+.hotelsWrapper{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+    gap: 20px;
+    /* background-color: #555; */
+}
+.hotelsSearch{
+    flex: 1;
+    background-color: #febb02;
+    padding: 10px;
+    border-radius: 10px;
+    position: sticky;
+    top: 10px;
+    height: max-content;
+}
+.hotelsResult{
+    flex: 3;
+    /* background-color: black; */
+}
+.hsTitle{
+    font-size: 20px;
+    color: #555;
+    margin-bottom: 10px;
+}
+.hsItem{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.hsItem>input{
+    height: 30px;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+.hsItem>label{
+    font-size: 14px;
+     color: #555;
+}
+.hsItem>span{
+    color: #705c5c;
+    background-color: rgb(239, 237, 233);
+    height: 30px;
+    padding: 5px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hsOptionItem{
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+    font-size: 12px;
+    margin-bottom: 10px;
+
+}
+.hsOptionItem>input{
+    width: 50px;
+}
+.hotelsSearch>button{
+    width: 100%;
+    background-color: #5457c0;
+    border: none;
+    font-weight: 500;
+    color: white;
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}

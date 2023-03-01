@@ -1,0 +1,110 @@
+
+.header{
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+.headerContainer{
+    width: 100%;
+    max-width: 1024px;
+    color: white;
+    margin: 20px 0px 100px 0px;
+}
+.headerContainer.hotelsMode{
+    margin: 20px 0px 30px 0px;
+}
+.headerList{
+    display: flex;
+    gap: 40px;
+}
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+}
+.headerListItem.active{
+    border: 1px solid lightgray;
+    padding: 10px;
+    border-radius: 20px;
+}
+.headerButton{
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #56677f;
+    color: white;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.headerSearch{
+    height: 30px;
+    background-color: white;
+    border: 3px solid yellow;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width: 1024px;
+
+}
+
+.headerIcon{
+    color: lightgray;
+}
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.headerSearchInput{
+    border: none;
+    outline: none;
+}
+.headerSearchText{
+    color: lightcoral;
+    cursor: pointer;
+}
+.date{
+    position:absolute;
+    top:50px;
+    z-index: 2;
+}
+.options{
+    background-color: white;
+    color: gray;
+    position: absolute;
+    top: 50px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px -5px rgba(0, 0, 0, 0.4);
+    z-index: 2;
+}
+.optionItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    margin: 20px;
+}
+.optionCounter{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.optionCounterBtn{
+     border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    background-color: #c4cdd8;
+    color: black;
+    border-radius: 4px;
+    font-weight: 500;
+}
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}

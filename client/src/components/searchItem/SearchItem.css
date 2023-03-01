@@ -1,0 +1,101 @@
+
+.searchItem{
+    border: 1px solid lightgray;
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.siImg{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.siDesc{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 2;
+}
+.siTitle{
+    font-size: 20px;
+    color: #0071c2;
+    margin: 0px 0px;
+}
+.siTaxiOp{
+    font-size: 12px;
+    background-color: #008009;
+    color: white;
+    width: max-content;
+    padding: 3px;
+    border-radius: 5px;
+}
+.siSubtitle{
+    font-size: 12px;
+    font-weight: bold;
+}
+.siFeatures{
+    font-size: 12px;
+}
+.siCancelOp{
+    color: #008009;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.siDistance{
+    font-size: 12px;
+}
+.siCancelOpSubtitle{
+    color: #008009;
+    font-size: 12px;
+}
+.siDetails{
+    flex: 1;
+}
+.siDetails{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.siRating{
+    display: flex;
+    justify-content: space-between;
+}
+.siRating>button{
+    font-weight: bold;
+    background-color: #0071c2;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+.siRating>span{
+    font-weight: 500;
+}
+.siDetailText{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+    text-align: right;
+    gap: 5px;
+}
+.siPrice{
+    font-size: 24px;
+}
+.siTaxOp{
+    font-size: 12px;
+    color: gray;
+}
+.siCheckBtn{
+background-color: #0071c2;
+color: white;
+font-weight: bold;
+padding: 10px 5px;
+cursor: pointer;
+border: none;
+border-radius: 5px;
+}
